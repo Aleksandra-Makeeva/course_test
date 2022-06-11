@@ -1,0 +1,333 @@
+JSON
+4. Создать внешний репозиторий с названием JSON
+Зайти на GitHub, залогинется, клик по create a new repository, добавить Repository name.
+5. Клонировать репозиторий JSON на локальный компьютер
+git clone git@github.com:Aleksandra-Makeeva/JSON.git
+6. Внутри локального JSON создать файл new.json
+cd JSON
+touch new.json
+7.Добавить файл под гит
+git add new.json
+8. Закоммитить файл
+git commit -m "add file new.json"
+9. Отправить файл на внешний GitHub репозиторий
+git push
+10. Отредактировать содержание файла "new.json" - написать информация о себе ( ФФИО, возраст, количество домашних животных, будущая желаемая зарплата) Все написать в формате json
+{
+"First name" : "Aleksandra",
+"Last name" : "Makeeva",
+"Patronymic" : "Sergeevna",
+"Age" : 29, 
+"Number of pets" : 1, 
+"Future desired salary" : 50000
+}
+11. Отправить изменение на внешний репозиторий
+git add new.json
+git commit -m "add info in new.json"
+git push
+12.Создать файл preferences.json
+toush preferences.json
+13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, страна, которую хотели бы посетить) в формате JSON
+{
+"Favorite movia" : "The Lord of the Rings",
+"Favorite TV show" : "Once Upon a Time",
+"Favorite food" : "It's hard to answer",
+"Favorite time of year" : "Spring",
+"Country you would like to vizit" : "It's hard to answer"
+}
+14. Создать файл skills.json добавить информацию о скиллах которе будут изучены на курсе в формате JSON
+touch skills.json
+{
+        "skills" :
+        {
+"skills_1" : "Базовая теория (Что такое тестирование, багрепорты, документация, виды методы, направления тестирования и т.п) SDLC, STLC",
+"skills_2" : "Что такое клиент-серверная архитектура",
+"skills_3" : "HTTP Методы запросов на сервер",
+"skills_4" : "Коды ответов HTTP сервера",
+"skills_5" : "Структуры HTTP запросов и ответов",
+"skills_6" : "Что такое JSON, XML. Их структура.",
+"skills_7" : "Тестирование API через Postman (JS, автотесты API)",
+"skills_8" : "Снятие и чтение логов с внешнего сервера",
+"skills_9" : "Снифинг http web трафика через Charles и Fiddler",
+"skills_10" : "DevTools веб браузеров (Google Chrome, Firefox)",
+"skills_11" : "VPN. (Как работает, зачем нужен, как использовать, варианты инструментов)",
+"skills_12" : "Мобильное тестирование",
+"skills_13" : "Особенности iOS, Android, гайдлайны",
+"skills_14" : "Сборка iOS приложений на XCode. (Ознакомление)",
+"skills_15" : "Сборка Android приложений на Android Studio.",
+"skills_16" : "ADB (управление андройд девайсами)",
+"skills_17" : "Настройка проски и vpn на iOS и Android.",
+"skills_18" : "Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android",
+"skills_19" : "Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса)",
+"skills_20" : "Основы bash скрипнтинг, автоматизация рутинных задач на сервере",
+"skills_21" : "Доступ к удаленным сервера",
+"skills_22" : "Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)",
+"skills_23" : "База данных Postgres (устанока, настройка и использование",
+"skills_24" : "Нереляционная база данных Redis(установка, настройка и использование)",
+"skills_25" : "Нагрузочное тестирование в Jmeter.",
+"skills_26" : "Методология разработки Scrum",
+"skills_27" : "Python. (Изучение основ. Создание клиент серверного приложения)"
+        }
+}
+15. Отправить сразу 2 файла на внешний репозиторий
+git add preferences.json skills.json
+git commit -m "add perferences and skills json"
+git push
+
+16. На веб интерфейсе создать файл bug_report.json
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+19. Сделать Commit change (сохранить) изменения на веб интерфейсе.
+19. Синхронизировать внешний и локальный репозиторий JSON
+git pull
+
+
+XML
+21. Создать внешний репозиторий с названием XML
+Зайти на GitHub, залогинется, клик по create a new repository, добавить Repository name XML
+22. Клонировать репозиторий XML на локальный компьютер
+git clone git@github.com:Aleksandra-Makeeva/XML.git
+23. Внутри локального XML создать файл new.xml
+cd XML
+touch new.xml
+24.Добавить файл под гит
+git add new.xml
+25. Закоммитить файл
+git commit -m "add file new.xml"
+26. Отправить файл на внешний GitHub репозиторий
+git push
+27. Отредактировать содержимое файла "new.xml" - написать информацию о себе(ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+<!DOCTYPE info>
+<info lang="xml">
+        <info>
+                <First_name>
+                        Aleksandra
+                </First_name>
+                <Last_name>
+                        Makeeva
+                </Last_name>
+                <Patronymic>
+                        Sergeevna
+                </Patronymic>
+                <Age>
+                        29
+                </Age>
+                <Number_of_pets>
+                        1
+                </Number_of_pets>
+Future_desired_salary>
+                        50000
+                </Future_desired_salary>
+
+        </info>
+</info>
+
+28. Отправить изменения на внешний репозиторий
+git add new.xml
+git commit -m "add info in new.xml"
+git push
+29. Создать файл preferences.xml
+touch preferences.xml
+30. В файл добавить preferences.xml информацию о своих предпочтениях ( Любимый фильм,любимый сериал, любимая еда, любимое время года, страна, которую хотели бы посетить) в формате XML.
+<!DOCTYPE preferences>
+<preferences lang="xml">
+        <preferences>
+                <Favorite_movia>
+                        The Lord of the Rings
+                </Favorite_movia>
+                <Favorite_TV_show>
+                        Once Upon a Time
+                </Favorite_TV_show>
+                <Favorite_food>
+                        It's hard to answer
+                </Favorite_food>
+                <Favorite_time_of_year>
+                        Spring
+                </Favorite_time_of_year>
+<Favorite_time_of_year>
+                        Spring
+                </Favorite_time_of_year>
+                <Country_you_would_like_to_vizit>
+                        It's hard to answer
+                </Country_you_would_like_to_vizit>
+        </preferences>
+</preferences>
+
+31. Создать файл skill.xml добавить  информацию о скиллах, которые будут изучены на курсе в формате XML
+<source lang="xml">
+        <?xml version="1.1" encoding="UTF-8"?>
+        <!DOCTYPE skills>
+        <skills>
+                <ID>
+                        1. Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC.
+                </ID>
+                <ID>
+                        2. Что такое клиент-серверная архитектура.
+                </ID>
+                <ID>
+                        3. HTTP Методы запросов на сервер.
+                </ID>
+                <ID>
+                        4. Коды ответов HTTP сервера.
+                </ID>
+                <ID>
+                        5. Структуры HTTP запросов и ответов.
+                </ID>
+                <ID>
+                        6. Что такое JSON, XML. Их структура.
+		</ID>
+		<ID>
+			7. Тестирование API через Postman (JS, автотесты API).
+                </ID>
+                <ID>
+                        8. Снятие и чтение логов c внешнего сервера.
+                </ID>
+                <ID>
+                        9. Снифинг http web трафика через Charles и Fiddler.
+                </ID>
+                <ID>
+			10. Dev Tools веб браузеров (Google Chrome, FireFox).
+                </ID>
+                <ID>
+                        11. VPN. (Как работает, зачем нужен, как использовать, варианты инструментов)
+                </ID>
+                <ID>
+                        12. Мобильное тестирование.
+                </ID>
+                <ID>
+                        13. Особенность iOS, Android, гайдлайны.
+                </ID>
+                <ID>
+                	14. Сборка iOS приложений на XCode. (У кого нет Mac компьютера, просто посмотрят)
+                </ID>
+                <ID>
+                        15. Сборка Android приложений на Android Studio.
+                </ID>
+                <ID>
+                        16. ADB (управление андройд девайсами).
+                </ID>
+                <ID>
+			17. Настройка прокси и vpn на iOS и Android.
+                </ID>
+                <ID>
+                        18. Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android.
+                </ID>
+                <ID>
+                        19. Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса).
+                </ID>
+                <ID>
+                        20. Основы bash скриптинг, автоматизация рутинных задач на сервере.
+                </ID>
+                <ID>
+  			21. Доступ к удалённым серверам.
+                </ID>
+                <ID>
+                        22. Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join).
+                </ID>
+                <ID>
+                        23. База данных Postgres (установка, настройка и использование).
+                </ID>
+                <ID>
+                	24. Нереляционная база данных Redis (установка, настройка и использование).
+                </ID>
+                <ID>
+                        25. Нагрузочное тестирование в Jmeter.
+                </ID>
+                <ID>
+                        26. Методология разработки Scrum.
+</ID>
+                <Id>
+                        27. Python. (Изучение основ. Создание клиент серверного приложения)
+                </ID>
+                </skills>
+
+</source>
+
+32. Сделать коммит во одну строку
+git commit -m "add file preferences.xml and skills.xml"
+33. Отправить сразу 2 файла на внешний репозиторий
+git add preferensec.xml skills.xml
+git push
+34. На веб интерфейсе создать файл bug_report.xml
+35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML/
+37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+38. Синхронизировать внешний и локальных репозиторий XML.
+git pull
+
+TXT
+
+ 1. Создать внешний репозиторий c названием TXT.
+Зайти на GitHub, залогинется, клик по create a new repository, добавить Repository name.
+ 2. Клонировать репозиторий TXT на локальный компьютер.
+git clone git@github.com:Aleksandra-Makeeva/TXT.git
+ 3. Внутри локального TXT создать файл “new.txt”.
+cd TXT
+touch new.txt
+
+4. Добавить файл под гит.
+git add new.txt
+ 5. Закоммитить файл.
+git commit -m "add file new.txt"
+ 6. Отправить файл на внешний GitHub репозиторий.
+git push
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+ФИО Макеева Александра Сергеевна
+возраст 29
+количество домашних животных 1
+Будущая желаемая зарплата 50000
+ 8. Отправить изменения на внешний репозиторий.
+git add new.txt
+git commit -m "add info in new.txt"
+git push
+ 9. Создать файл preferences.txt
+toush preferences.txt
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+Favorite movia : "The Lord of the Ring"
+Favorite TV shom : "Once Upon a Time"
+Favorite food : It's hard to answer
+Favorite time of year : Spring
+Country you would like to vizit : It's hard to answer
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+Skills:
+1) Базовая теория (Что такое тестирование, багрепорты, документация, виды методы, направления тестирования и т.п) SDLC, STLC
+2) Что такое клиент-серверная архитектура
+3) HTTP Методы запросов на сервер
+4) Коды ответов HTTP сервера
+5) Структуры HTTP запросов и ответов
+6) Что такое JSON, XML. Их структура
+7) Тестирование API через Postman (JS, автотесты API)
+8) Снятие и чтение логов с внешнего сервера
+9) Снифинг http web трафика через Charles и Fiddler
+10) DevTools веб браузеров (Google Chrome, Firefox)
+11) VPN. (Как работает, зачем нужен, как использовать, варианты инструментов)
+12) Мобильное тестирование
+13) Особенности iOS, Android, гайдлайны
+14) Сборка iOS приложений на XCode. (Ознакомление)
+15) Сборка Android приложений на Android Studio.
+16) ADB (управление андройд девайсами)
+17) Настройка проски и vpn на iOS и Android
+18) Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android
+19) Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса)
+20) Основы bash скрипнтинг, автоматизация рутинных задач на сервере
+21) Доступ к удаленным сервера
+22) Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)
+23) База данных Postgres (устанока, настройка и использование
+24) Нереляционная база данных Redis(установка, настройка и использование)
+25) Нагрузочное тестирование в Jmeter.
+26) Методология разработки Scrum
+27) Python. (Изучение основ. Создание клиент серверного приложения)
+
+ 12. Отправить сразу 2 файла на внешний репозиторий.
+Отправить сразу 2 файла на внешний репозиторий
+git add preferences.txt skills.txt
+git commit -m "add perferences and skills txt"
+git push
+ 14. На веб интерфейсе создать файл bug_report.txt.
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+git pull
+
+
