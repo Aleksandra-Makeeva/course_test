@@ -1,32 +1,40 @@
 JSON
 4. Создать внешний репозиторий с названием JSON
-Зайти на GitHub, залогинется, клик по create a new repository, добавить Repository name.
+Зайти на GitHub, залогинется, клик по create a new repository, добавить Repository name "JSON".
+
 5. Клонировать репозиторий JSON на локальный компьютер
 git clone git@github.com:Aleksandra-Makeeva/JSON.git
+
 6. Внутри локального JSON создать файл new.json
 cd JSON
 touch new.json
+
 7.Добавить файл под гит
 git add new.json
+
 8. Закоммитить файл
 git commit -m "add file new.json"
+
 9. Отправить файл на внешний GitHub репозиторий
 git push
-10. Отредактировать содержание файла "new.json" - написать информация о себе ( ФФИО, возраст, количество домашних животных, будущая желаемая зарплата) Все написать в формате json
+
+10. Отредактировать содержание файла "new.json" - написать информация о себе ( ФИО, возраст, количество домашних животных, будущая желаемая зарплата) Все написать в формате json
 {
 "First name" : "Aleksandra",
 "Last name" : "Makeeva",
 "Patronymic" : "Sergeevna",
-"Age" : 29, 
-"Number of pets" : 1, 
+"Age" : 29,               
+"Number of pets" : 1,              
 "Future desired salary" : 50000
 }
+
 11. Отправить изменение на внешний репозиторий
-git add new.json
-git commit -m "add info in new.json"
+git commit -am "add info in new.json"
 git push
+
 12.Создать файл preferences.json
 toush preferences.json
+
 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, страна, которую хотели бы посетить) в формате JSON
 {
 "Favorite movia" : "The Lord of the Rings",
@@ -35,6 +43,7 @@ toush preferences.json
 "Favorite time of year" : "Spring",
 "Country you would like to vizit" : "It's hard to answer"
 }
+
 14. Создать файл skills.json добавить информацию о скиллах которе будут изучены на курсе в формате JSON
 touch skills.json
 {
@@ -67,17 +76,50 @@ touch skills.json
 "skills_25" : "Нагрузочное тестирование в Jmeter.",
 "skills_26" : "Методология разработки Scrum",
 "skills_27" : "Python. (Изучение основ. Создание клиент серверного приложения)"
-        }
+	}
 }
+
 15. Отправить сразу 2 файла на внешний репозиторий
-git add preferences.json skills.json
+git add .
 git commit -m "add perferences and skills json"
 git push
 
 16. На веб интерфейсе создать файл bug_report.json
+Add file-Create new file bug_report.json
+
 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+Commit new file Create new file
+
 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+Open bug_report.json 
+Edit this file 
+
+{
+ "id" : 1,
+  "summary" : "Error when launching the application",
+  "severity" : "Critical",
+  "priority" : "High",
+  "status" : "New",
+  "author" : "Makeeva Aleksandra Sergeevna",
+  "assigned_to" : "Ivanov",
+  "description" :
+  {
+  	"environment" : "Honor 8a Android 9.0",
+  		"str" :
+  		{
+      			"step_1" : "install app",
+      			"step_2" : "open app" 
+  		},
+  	"ar" : "App open",  
+  	"er" : "Error"
+  },
+  "attachment" : "name.jpg"
+  }
+ 
 19. Сделать Commit change (сохранить) изменения на веб интерфейсе.
+Commit changes - Update bug_report.json
+Commit changes
+
 19. Синхронизировать внешний и локальный репозиторий JSON
 git pull
 
@@ -85,210 +127,200 @@ git pull
 XML
 21. Создать внешний репозиторий с названием XML
 Зайти на GitHub, залогинется, клик по create a new repository, добавить Repository name XML
+
 22. Клонировать репозиторий XML на локальный компьютер
 git clone git@github.com:Aleksandra-Makeeva/XML.git
+
 23. Внутри локального XML создать файл new.xml
 cd XML
 touch new.xml
+
 24.Добавить файл под гит
 git add new.xml
+
 25. Закоммитить файл
 git commit -m "add file new.xml"
+
 26. Отправить файл на внешний GitHub репозиторий
 git push
-27. Отредактировать содержимое файла "new.xml" - написать информацию о себе(ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
-<!DOCTYPE info>
-<info lang="xml">
-        <info>
-                <First_name>
-                        Aleksandra
-                </First_name>
-                <Last_name>
-                        Makeeva
-                </Last_name>
-                <Patronymic>
-                        Sergeevna
-                </Patronymic>
-                <Age>
-                        29
-                </Age>
-                <Number_of_pets>
-                        1
-                </Number_of_pets>
-Future_desired_salary>
-                        50000
-                </Future_desired_salary>
 
-        </info>
+27. Отредактировать содержимое файла "new.xml" - написать информацию о себе(ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+	<FIO>
+		<first_name>
+			Aleksandra
+		</first_name>
+		<last_name>
+			Makeeva
+		</last_name>
+		<patronymic>
+			Sergeevna
+		</patronymic>
+	</FIO>
+	<age> 29 </age>
+	<number_of_pets> 1 </number_of_pets>
+	<future_desired_salary> 50000 </future_desired_salary>
+
 </info>
 
 28. Отправить изменения на внешний репозиторий
 git add new.xml
 git commit -m "add info in new.xml"
 git push
+
 29. Создать файл preferences.xml
 touch preferences.xml
+
 30. В файл добавить preferences.xml информацию о своих предпочтениях ( Любимый фильм,любимый сериал, любимая еда, любимое время года, страна, которую хотели бы посетить) в формате XML.
-<!DOCTYPE preferences>
-<preferences lang="xml">
-        <preferences>
-                <Favorite_movia>
-                        The Lord of the Rings
-                </Favorite_movia>
-                <Favorite_TV_show>
-                        Once Upon a Time
-                </Favorite_TV_show>
-                <Favorite_food>
-                        It's hard to answer
-                </Favorite_food>
-                <Favorite_time_of_year>
-                        Spring
-                </Favorite_time_of_year>
-<Favorite_time_of_year>
-                        Spring
-                </Favorite_time_of_year>
-                <Country_you_would_like_to_vizit>
-                        It's hard to answer
-                </Country_you_would_like_to_vizit>
-        </preferences>
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+	<table>
+		<tr>
+			<th> Favorite movia </th>
+			<td> The Lord of the Rings </td>
+		</tr>
+		<tr>
+			<th> Favorite TV show </th>
+			<td> Once Upon a Time </td>
+		</tr>
+		<tr>
+			<th> Favorite foof </th>
+			<td> It's hard to answer </td>
+		</tr>
+		<tr>
+			<th> Favorire time_of_year </th>
+			<td> Spring </td>
+		</tr>
+		<tr> 
+			<th> Country_you_would_like_to_vizit> </th>
+			<td> It's hard to answer </td>
+		</tr>
+	</table>	
 </preferences>
 
 31. Создать файл skill.xml добавить  информацию о скиллах, которые будут изучены на курсе в формате XML
 <source lang="xml">
-        <?xml version="1.1" encoding="UTF-8"?>
-        <!DOCTYPE skills>
-        <skills>
-                <ID>
-                        1. Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC.
-                </ID>
-                <ID>
-                        2. Что такое клиент-серверная архитектура.
-                </ID>
-                <ID>
-                        3. HTTP Методы запросов на сервер.
-                </ID>
-                <ID>
-                        4. Коды ответов HTTP сервера.
-                </ID>
-                <ID>
-                        5. Структуры HTTP запросов и ответов.
-                </ID>
-                <ID>
-                        6. Что такое JSON, XML. Их структура.
-		</ID>
-		<ID>
-			7. Тестирование API через Postman (JS, автотесты API).
-                </ID>
-                <ID>
-                        8. Снятие и чтение логов c внешнего сервера.
-                </ID>
-                <ID>
-                        9. Снифинг http web трафика через Charles и Fiddler.
-                </ID>
-                <ID>
-			10. Dev Tools веб браузеров (Google Chrome, FireFox).
-                </ID>
-                <ID>
-                        11. VPN. (Как работает, зачем нужен, как использовать, варианты инструментов)
-                </ID>
-                <ID>
-                        12. Мобильное тестирование.
-                </ID>
-                <ID>
-                        13. Особенность iOS, Android, гайдлайны.
-                </ID>
-                <ID>
-                	14. Сборка iOS приложений на XCode. (У кого нет Mac компьютера, просто посмотрят)
-                </ID>
-                <ID>
-                        15. Сборка Android приложений на Android Studio.
-                </ID>
-                <ID>
-                        16. ADB (управление андройд девайсами).
-                </ID>
-                <ID>
-			17. Настройка прокси и vpn на iOS и Android.
-                </ID>
-                <ID>
-                        18. Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android.
-                </ID>
-                <ID>
-                        19. Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса).
-                </ID>
-                <ID>
-                        20. Основы bash скриптинг, автоматизация рутинных задач на сервере.
-                </ID>
-                <ID>
-  			21. Доступ к удалённым серверам.
-                </ID>
-                <ID>
-                        22. Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join).
-                </ID>
-                <ID>
-                        23. База данных Postgres (установка, настройка и использование).
-                </ID>
-                <ID>
-                	24. Нереляционная база данных Redis (установка, настройка и использование).
-                </ID>
-                <ID>
-                        25. Нагрузочное тестирование в Jmeter.
-                </ID>
-                <ID>
-                        26. Методология разработки Scrum.
-</ID>
-                <Id>
-                        27. Python. (Изучение основ. Создание клиент серверного приложения)
-                </ID>
-                </skills>
-
-</source>
+        <?xml version="1.0" encoding="UTF-8"?>
+<skills>
+	<ol>
+		<li> Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC.</li>
+		<li> Что такое клиент-серверная архитектура.</li>
+		<li> HTTP Методы запросов на сервер.</li>
+		<li> Коды ответов HTTP сервера.</li>
+		<li> Структуры HTTP запросов и ответов.</li>
+		<li> Что такое JSON, XML. Их структура.</li>
+		<li> Тестирование API через Postman (JS, автотесты API).</li>
+		<li> Снятие и чтение логов c внешнего сервера.</li>
+		<li> Снифинг http web трафика через Charles и Fiddler.</li>
+		<li> Dev Tools веб браузеров (Google Chrome, FireFox).</li>
+		<li> VPN. (Как работает, зачем нужен, как использовать, варианты инструментов)</li>
+		<li> Мобильное тестирование.</li>
+		<li> Особенность iOS, Android, гайдлайны.</li>
+		<li> Сборка iOS приложений на XCode. (Ознакомление)</li>
+		<li> Сборка Android приложений на Android Studio.</li>
+		<li> ADB (управление андройд девайсами).</li>
+		<li> Настройка прокси и vpn на iOS и Android.</li>
+		<li> Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android.</li>
+		<li> Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса).</li>
+		<li> Основы bash скриптинг, автоматизация рутинных задач на сервере.</li>
+		<li> Доступ к удалённым серверам.</li>
+		<li> Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join).</li>
+		<li> База данных Postgres (установка, настройка и использование).</li>
+		<li> Нереляционная база данных Redis (установка, настройка и использование).</li>
+		<li> Нагрузочное тестирование в Jmeter.</li>
+		<li> Методология разработки Scrum.</li>
+		<li> Python. (Изучение основ. Создание клиент серверного приложения)</li>
+	</ol>	
+</skills>
 
 32. Сделать коммит во одну строку
-git commit -m "add file preferences.xml and skills.xml"
+git commit -am "add file preferences.xml and skills.xml"
+
 33. Отправить сразу 2 файла на внешний репозиторий
-git add preferensec.xml skills.xml
 git push
+
 34. На веб интерфейсе создать файл bug_report.xml
+Add file - Create new file - bug_report.xml
+
 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML/
+Commit new file - Create bug_report.xml - Commit new file
+
+36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML
+Edit this file
+<?xml version="1.0" encoding="UTF-8"?>
+<bug_report>
+  	<id> 1 </id>
+ 	<summary> Error when launching the application </summary>    
+  	<severity> Critical </severity>
+  	<priority> High </priority>
+  	<status> New </status>
+	<author> Makeeva Aleksandra Sergeevna </author>
+  	<assigned_to> Ivanov </assigned_to>
+  	<description>
+  		<environment> Honor 8a Android 9.0 </environment>
+  		<str>
+      			<step_1> install app </step_1>
+      			<step_2> open app </step_2>
+  		</str>
+  		<ar> App open </ar> 
+  		<er> Error </er>
+  	</description>
+  	<attachment> name.jpg </attachment>
+</bug_report>
+
 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit changes
+Update bug_report.xml
+Commit changes
+
 38. Синхронизировать внешний и локальных репозиторий XML.
 git pull
 
 TXT
 
  1. Создать внешний репозиторий c названием TXT.
-Зайти на GitHub, залогинется, клик по create a new repository, добавить Repository name.
+Зайти на GitHub, залогинется, клик по create a new repository, добавить Repository name TXT
+
  2. Клонировать репозиторий TXT на локальный компьютер.
 git clone git@github.com:Aleksandra-Makeeva/TXT.git
+
  3. Внутри локального TXT создать файл “new.txt”.
 cd TXT
 touch new.txt
 
 4. Добавить файл под гит.
 git add new.txt
+
  5. Закоммитить файл.
 git commit -m "add file new.txt"
+
  6. Отправить файл на внешний GitHub репозиторий.
 git push
+
  7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+ 
 ФИО Макеева Александра Сергеевна
 возраст 29
 количество домашних животных 1
 Будущая желаемая зарплата 50000
+
  8. Отправить изменения на внешний репозиторий.
 git add new.txt
 git commit -m "add info in new.txt"
 git push
+
  9. Создать файл preferences.txt
 toush preferences.txt
+
  10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
 Favorite movia : "The Lord of the Ring"
 Favorite TV shom : "Once Upon a Time"
 Favorite food : It's hard to answer
 Favorite time of year : Spring
 Country you would like to vizit : It's hard to answer
- 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+
+ 11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
 Skills:
 1) Базовая теория (Что такое тестирование, багрепорты, документация, виды методы, направления тестирования и т.п) SDLC, STLC
 2) Что такое клиент-серверная архитектура
@@ -318,15 +350,43 @@ Skills:
 26) Методология разработки Scrum
 27) Python. (Изучение основ. Создание клиент серверного приложения)
 
- 12. Отправить сразу 2 файла на внешний репозиторий.
+ 12. Сделать коммит в одну строку
+ git commit -am "add perferences and skills txt"
+ 
+ 13. Отправить сразу 2 файла на внешний репозиторий.
 Отправить сразу 2 файла на внешний репозиторий
-git add preferences.txt skills.txt
-git commit -m "add perferences and skills txt"
 git push
+
  14. На веб интерфейсе создать файл bug_report.txt.
+ Add file - Create new file
+ bug_report.txt
+
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ Commit new file - Create bug_report 
+ Commit new file
+ 
  16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+ Edit this file
+ id 1 
+summary Error when launching the application   
+severity Critical 
+priority High 
+status New
+author Makeeva Aleksandra Sergeevna
+assigned to Ivanov
+description
+  environment Honor 8a Android 9.0
+  str
+    step_1 install app
+    step_2 open app
+ ar App open 
+ er Error
+ attachment name.jpg
+ 
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ Commit chandes - Update bug_report.txt
+ Commit changes
+ 
  18. Синхронизировать внешний и локальный репозиторий TXT
 git pull
 
