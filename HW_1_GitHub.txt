@@ -81,7 +81,7 @@ touch skills.json
 
 15. Отправить сразу 2 файла на внешний репозиторий
 git add .
-git commit -m "add perferences and skills json"
+git commit -ma "add perferences and skills json"
 git push
 
 16. На веб интерфейсе создать файл bug_report.json
@@ -102,16 +102,16 @@ Edit this file
   "status" : "New",
   "author" : "Makeeva Aleksandra Sergeevna",
   "assigned_to" : "Ivanov",
+  "environment" : "Honor 8a Android 9.0",
   "description" :
   {
-  	"environment" : "Honor 8a Android 9.0",
   		"str" :
   		{
       			"step_1" : "install app",
       			"step_2" : "open app" 
   		},
-  	"ar" : "App open",  
-  	"er" : "Error"
+  	"er" : "App open",  
+  	"ar" : "Error"
   },
   "attachment" : "name.jpg"
   }
@@ -120,8 +120,11 @@ Edit this file
 Commit changes - Update bug_report.json
 Commit changes
 
-19. Синхронизировать внешний и локальный репозиторий JSON
+20. Синхронизировать внешний и локальный репозиторий JSON
+git fetch
 git pull
+gpt push
+
 
 
 XML
@@ -193,15 +196,14 @@ touch preferences.xml
 			<td> Spring </td>
 		</tr>
 		<tr> 
-			<th> Country_you_would_like_to_vizit> </th>
+			<th> Country_you_would_like_to_vizit </th>
 			<td> It's hard to answer </td>
 		</tr>
 	</table>	
 </preferences>
 
 31. Создать файл skill.xml добавить  информацию о скиллах, которые будут изучены на курсе в формате XML
-<source lang="xml">
-        <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <skills>
 	<ol>
 		<li> Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC.</li>
@@ -257,14 +259,14 @@ Edit this file
   	<status> New </status>
 	<author> Makeeva Aleksandra Sergeevna </author>
   	<assigned_to> Ivanov </assigned_to>
-  	<description>
-  		<environment> Honor 8a Android 9.0 </environment>
+  	<environment> Honor 8a Android 9.0 </environment>
+	<description>
   		<str>
       			<step_1> install app </step_1>
       			<step_2> open app </step_2>
   		</str>
-  		<ar> App open </ar> 
-  		<er> Error </er>
+  		<er> App open </er> 
+  		<ar> Error </ar>
   	</description>
   	<attachment> name.jpg </attachment>
 </bug_report>
@@ -275,7 +277,12 @@ Update bug_report.xml
 Commit changes
 
 38. Синхронизировать внешний и локальных репозиторий XML.
+git fetch
 git pull
+git push
+
+
+
 
 TXT
 
@@ -314,6 +321,7 @@ git push
 toush preferences.txt
 
  10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+
 Favorite movia : "The Lord of the Ring"
 Favorite TV shom : "Once Upon a Time"
 Favorite food : It's hard to answer
@@ -354,7 +362,6 @@ Skills:
  git commit -am "add perferences and skills txt"
  
  13. Отправить сразу 2 файла на внешний репозиторий.
-Отправить сразу 2 файла на внешний репозиторий
 git push
 
  14. На веб интерфейсе создать файл bug_report.txt.
@@ -374,13 +381,13 @@ priority High
 status New
 author Makeeva Aleksandra Sergeevna
 assigned to Ivanov
+environment Honor 8a Android 9.0
 description
-  environment Honor 8a Android 9.0
   str
     step_1 install app
     step_2 open app
- ar App open 
- er Error
+ er App open 
+ ar Error
  attachment name.jpg
  
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
@@ -388,6 +395,7 @@ description
  Commit changes
  
  18. Синхронизировать внешний и локальный репозиторий TXT
+git fetch
 git pull
-
+git push
 
