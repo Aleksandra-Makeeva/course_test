@@ -188,7 +188,7 @@ touch preferences.xml
 			<td> Once Upon a Time </td>
 		</tr>
 		<tr>
-			<th> Favorite foof </th>
+			<th> Favorite food </th>
 			<td> It's hard to answer </td>
 		</tr>
 		<tr>
